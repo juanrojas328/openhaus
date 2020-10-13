@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.logoIcon {
+  top: 4px;
+  font-size: 32px;
+  margin-right: -2px;
+  position: relative;
+}
+.caption {
+  margin: 20px 0 40px 0;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 18px;
+  opacity: 0.8;
+}
+.skip {
+  font-weight:lighter;
+  color:white;
+  opacity: 0.7;
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+.skip:HOVER {
+  text-decoration: underline;
+}
+.firebaseUi {
+  min-width: 250px;
+  width: 100%;
+}
+.button {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  margin-top: 10px;
+}
